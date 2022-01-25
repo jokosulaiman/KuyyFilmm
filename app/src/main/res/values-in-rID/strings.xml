@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KuyyFilm</string>
+    <string name="name_movie">Nama Film</string>
+    <string name="producer">Produksi :</string>
+    <string name="writter">Penulis :</string>
+    <string name="production">Produksi :</string>
+    <string name="distributor">Perusahaan :</string>
+    <string name="description">Deskripsi :</string>
+</resources>

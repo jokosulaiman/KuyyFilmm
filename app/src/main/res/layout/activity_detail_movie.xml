@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context=".DetailMovieActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/bg_poster"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+        <!--<ImageView-->
+        <!--android:id="@+id/poster"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:src="@drawable/poster_deadpool"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_gravity="bottom"/>-->
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="2dp"/>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadpool"
+            android:layout_toRightOf="@id/poster"
+            android:layout_below="@id/bg_poster"
+            android:layout_marginTop="2dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFAB00"
+            android:fontFamily="@font/poppinssemibold"
+            />
+        <TextView
+            android:id="@+id/txt_sutradara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aris Nugraha"
+            android:layout_toRightOf="@id/poster"
+            android:layout_below="@id/txt_title"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/txt_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fantasi"
+            android:layout_toRightOf="@+id/poster"
+            android:layout_below="@id/txt_sutradara"
+            android:layout_marginTop="1dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#FFAB00"/>
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12-01-2012"
+            android:layout_toRightOf="@id/poster"
+            android:layout_below="@id/txt_genre"
+            android:layout_marginTop="1dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@android:color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/poster"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <RelativeLayout
+                android:id="@+id/lyt_producer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/producer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/producer"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_producer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/producer"
+                    android:textColor="#E0E0E0"
+                    android:text="Aris Nugraha"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppinsregular"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lyt_writter"
+                android:layout_below="@id/lyt_producer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/writter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/writter"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_writter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/writter"
+                    android:textColor="#E0E0E0"
+                    android:text="Christina Hodson"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppinsregular"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lyt_production"
+                android:layout_below="@id/lyt_writter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/production"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/production"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_production"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/production"
+                    android:textColor="#E0E0E0"
+                    android:text="Marvel Entertainment"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppinsregular"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lyt_distributor"
+                android:layout_below="@id/lyt_production"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/distributor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/distributor"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_distributor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/distributor"
+                    android:textColor="#E0E0E0"
+                    android:text="20th Century Fox"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppinsregular"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lyt_description"
+                android:layout_below="@id/lyt_distributor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/description"
+                    android:textColor="#E0E0E0"
+                    android:text="This Description"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppinsregular"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

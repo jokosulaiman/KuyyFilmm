@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">KuyyFilm</string>
+    <string name="name_movie">Name Movie</string>
+    <string name="producer">Producer :</string>
+    <string name="writter">Writter :</string>
+    <string name="production">Production :</string>
+    <string name="distributor">Distributor :</string>
+    <string name="description">Description :</string>
+
+<!--    <string name="lorem">Lorem ipsum dolor sit amet</string>-->
+
+    <string-array name="data_name">
+        <item>Spiderman No Way Home</item>
+        <item>Nussa</item>
+        <item>Venom 2</item>
+        <item>Squid Game</item>
+        <item>Avengers Endgame</item>
+        <item>Spider-Man</item>
+        <item>Venom</item>
+        <item>Avenger Infinity</item>
+    </string-array>
+
+    <array name="data_poster">
+        <item>@drawable/poster_spider</item>
+        <item>@drawable/poster_nussa</item>
+        <item>@drawable/poster_venom2</item>
+        <item>@drawable/poster_squidgame</item>
+        <item>@drawable/poster_avengers</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_venom</item>
+        <item>@drawable/poster_avengerinfinity</item>
+    </array>
+
+    <array name="data_bg_poster">
+        <item>@drawable/bgspider</item>
+        <item>@drawable/bgnussa</item>
+        <item>@drawable/bgvenom2</item>
+        <item>@drawable/bgsquidgame</item>
+        <item>@drawable/bgavengers</item>
+        <item>@drawable/bgspiderman</item>
+        <item>@drawable/bgvenom</item>
+        <item>@drawable/bgavengers</item>
+    </array>
+
+    <string-array name="data_genre">
+        <item>Fantasi</item>
+        <item>Animasi</item>
+        <item>Fantasi</item>
+        <item>Drama, Thriller</item>
+        <item>Fantasi</item>
+        <item>Animasi</item>
+        <item>Fantasi</item>
+        <item>Fantasi</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Spider-Man: No Way Home adalah film superhero Amerika Serikat yang akan datang berdasarkan karakter Marvel Comics, Spider-Man, diproduksi bersama oleh Columbia Pictures dan Marvel Studios, dan didistribusikan oleh Sony Pictures Releasing. Film ini dimaksudkan untuk menjadi sekuel Spider-Man: Homecoming (2017) dan Spider-Man: Far From Home (2019), dan merupakan film ke-27 di Marvel Cinematic Universe (MCU).</item>
+        <item>Nussa (Muzakki Ramdhan), si juara bertahan science fair, ingin kembali memenangkan lomba dengan roket rancangannya didampingi oleh Abba. Namun, eksperimen roketnya telah gagal, dan teman-teman beralih memperhatikan kecanggihan roket Jonni (Ali Fikry), anak baru di sekolah sekaligus rival lomba baginya. Berhadapan dengan rival yang lebih unggul, serta kabar bahwa Abba tak bisa pulang membuat Nussa terpukul. Mampukah Nussa mewujudkan mimpinya menjadi juara kembali di tengah situasi seperti ini?</item>
+        <item>Venom : Let There Be Carnage adalah film pahlawan super Amerika Serikat tahun 2020 yang didasarkan dari tokoh Marvel Comics berjudul sama. Film ini adalah sekuel dari Venom (2018). Pada 18 Maret, jadwal tayang film ini diundur lagi hingga 24 September 2021.</item>
+        <item>Squid Game (Hangul: 오징어게임; RR: Ojing-eo Geim) adalah serial drama survival yang menceritakan kisah sekelompok orang yang mempertaruhkan hidup mereka dalam kelangsungan hidup yang misterius. game dengan hadiah ₩45.6 miliar (US$38,7 juta). Empat ratus lima puluh enam orang, yang semuanya berjuang secara finansial dalam hidup, diundang untuk memainkan kompetisi bertahan hidup yang misterius. Berkompetisi dalam serangkaian permainan anak-anak tradisional tetapi dengan tikungan yang mematikan, mereka mempertaruhkan hidup mereka untuk bersaing memperebutkan hadiah</item>
+        <item>Avengers: Endgame adalah film pahlawan super Amerika 2019 yang didasarkan pada tim superhero Avengers dari Marvel Comics, diproduksi oleh Marvel Studios dan didistribusikan oleh Walt Disney Studios Motion Pictures. Ini adalah sekuel The Avengers 2012, film 2015 Avengers: Age of Ultron dan film 2018 Avengers: Infinity War, dan film kedua puluh dua di Marvel Cinematic Universe (MCU)</item>
+        <item>Spider-Man melintasi dimensi paralel dan bekerja sama dengan Spider-Man dari dimensi-dimensi tersebut untuk menghentikan ancaman terhadap semua realitas.</item>
+        <item>Venom adalah sebuah film pahlawan super Amerika mendatang berdasarkan karakter Marvel Comics dengan nama yang sama, diproduksi oleh Columbia Pictures bekerja sama dengan Marvel[5] dan didistribusikan oleh Sony Pictures Releasing. Film ini dimaksudkan untuk menjadi film pertama dalam Marvel Universe dari Sony, tambahan untuk Marvel Cinematic Universe (MCU).</item>
+        <item>The Avengers dan sekutu mereka harus bersedia mengorbankan segalanya dalam upaya untuk mengalahkan Thanos yang kuat sebelum ia berhasil menghancurkan alam semesta.</item>
+    </string-array>
+
+    <string-array name="data_sutradara">
+        <item>Jon Watts</item>
+        <item>Bony Wirasmono</item>
+        <item>Andy Serkis</item>
+        <item>Hwang Dong-hyuk</item>
+        <item>Anthony Russo, Joe Russo</item>
+        <item>Bob Persichetti, Peter Ramsey, Rodney Rothman</item>
+        <item>	Ruben Fleischer</item>
+        <item>Anthony Russo</item>
+    </string-array>
+
+    <string-array name="data_date">
+        <item>17 December 2021</item>
+        <item>14 October 2021</item>
+        <item>17 November 2021</item>
+        <item>17 September 2021</item>
+        <item>22 April 2019</item>
+        <item>1 Desember 2018</item>
+        <item>5 Oktober 2018</item>
+        <item>25 April 2018</item>
+    </string-array>
+
+    <string-array name="data_production">
+        <item>Marvel Studios</item>
+        <item>The Little Giantz, Visinema Pictures</item>
+        <item>Marvel Entertainment, Tencent Pictures, Pascal Pictures</item>
+        <item>Siren Pictures</item>
+        <item>Marvel Studios</item>
+        <item>Sony Pictures Animation</item>
+        <item>Marvel Entertainment</item>
+        <item>Marvel Studios</item>
+    </string-array>
+
+    <string-array name="data_producer">
+        <item>Kevin Feige, Amy Pascal</item>
+        <item>Anggia Kharisma, Ricky Manoppo</item>
+        <item>Avi Arad, Matt Tolmach, Amy Pascal, Hutch Parker</item>
+        <item>Hwang Dong-hyuk</item>
+        <item>Kevin Feige</item>
+        <item>Avi Arad, Amy Pascal, Phil Lord, Christopher Miller, Christina Steinberg</item>
+        <item>Avi Arad, Matt Tolmach, Amy Pascal</item>
+        <item>Kevin Feige</item>
+    </string-array>
+
+    <string-array name="data_writter">
+        <item>Chris McKenna, Erik Sommers</item>
+        <item>Muhamad Nurman Wardi, Widya Arifianti</item>
+        <item>Kelly Marcel</item>
+        <item>Hwang Dong-hyuk</item>
+        <item>Christopher Markus, Stephen McFeely</item>
+        <item>Phil Lord, Rodney Rothman</item>
+        <item>Jeff Pinkner, Scott Rosenberg, Kelly Marcel</item>
+        <item>Christopher Markus, Stephen McFeely</item>
+    </string-array>
+
+    <string-array name="data_distributor">
+        <item>Sony Pictures Releasing</item>
+        <item>The Little Giantz</item>
+        <item>Columbia Pictures</item>
+        <item>Netflix</item>
+        <item>Walt Disney Studios, Motion Pictures</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Walt Disney Studios, Motion Pictures</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+</resources>
